@@ -28,7 +28,7 @@ console.log(studentInfo);
 
 console.log(`Imported Name: ${name}`);
 
-console.log(`First Number: ${numbersModule.fisrtNumber}`);
+console.log(`First Number: ${numbersModule.firstNumber}`);
 console.log(`Second Number: ${numbersModule.secondNumber}`);
 console.log(`Sum of Numbers: ${numbersModule.sumNumbers()}`);
 

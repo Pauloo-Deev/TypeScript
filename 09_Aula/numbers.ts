@@ -1,8 +1,8 @@
-const fisrtNumber: number = 10;
+const firstNumber: number = 10;
 const secondNumber: number = 20;
 
 function sumNumbers(): number {
-	return fisrtNumber + secondNumber;
+	return firstNumber + secondNumber;
 }
 
-export { fisrtNumber, secondNumber, sumNumbers };
+export { firstNumber, secondNumber, sumNumbers };
