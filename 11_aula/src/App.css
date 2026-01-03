@@ -1,0 +1,71 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.title {
+	color: #61dafb;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.description {
+	text-align: center;
+	color: #555;
+	margin-top: 5px;
+}
+
+.content {
+	flex: 1;
+	padding-left: 20px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.card {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 16px;
+	margin: 16px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background-color: #f9f9f9;
+}
+
+.card:hover {
+	cursor: pointer;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cardTitle {
+	color: #222;
+	font-size: 1.5em;
+	margin-bottom: 15px;
+}
+
+.cardContent > p {
+	font-size: 1em;
+	color: #333;
+	margin: 5px;
+}
+
+.button {
+	background-color: #61dafb;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 1em;
+	cursor: pointer;
+	margin: 10px;
+	transition: background-color 0.3s ease;
+}
